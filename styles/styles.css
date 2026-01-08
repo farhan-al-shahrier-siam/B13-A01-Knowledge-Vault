@@ -1,3 +1,116 @@
-body{
-    background-color: purple;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px ;
+    
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+header nav{
+    display: flex;
+    gap: 346px;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+/* text gula 2 line e chilo tai eta use kora lagse */
+.menu li {
+    white-space: nowrap;
+  }
+
+nav .menu ul a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn{
+    border: none;
+    padding: 12.5px 16px;
+    background-color: #469165;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#banner{
+    height: 100vh;  
+    background: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+#banner .content-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 115px;
+    text-align: center;
+}
+
+.content-container .content .text-background{
+    color: #469165;
+    background: #FFFFFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-container .content .subtittle{
+    margin-bottom: 16px;
+}
+
+.content-container .content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.text-color{
+    color: #30B868;
+}
+
+.content-container .content p{
+    color: #ffffffd3;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.content-container .content .btn img{
+    height: 12px;
+    width: 12px;
+}
+
+.content-container .content .single-btn{
+    background: none;
+    color: #FFFFFF;
+    padding: 11px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 16px;
+    cursor: pointer;
 }
