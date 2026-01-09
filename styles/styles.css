@@ -51,10 +51,11 @@ nav .menu ul a{
     border-radius: 4px;
     color: #FFFFFF;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 #banner{
-    height: 100vh;  
+    height: 674px;  
     background: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -100,11 +101,6 @@ nav .menu ul a{
     margin-bottom: 16px;
 }
 
-.content-container .content .btn img{
-    height: 12px;
-    width: 12px;
-}
-
 .content-container .content .single-btn{
     background: none;
     color: #FFFFFF;
@@ -114,3 +110,59 @@ nav .menu ul a{
     margin-left: 16px;
     cursor: pointer;
 }
+
+#notes .notes-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#notes .notes-container h2{
+    text-align: center;
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+#notes .notes-container .notes-subtittle{
+    text-align: center;
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 44px;
+}
+
+.notes-content .cards{
+    display: flex;
+    gap: 24px;
+}
+
+.cards .card-info{
+    max-width: 322px;
+    text-align: center;
+    box-shadow: 0 0 8px #0000001b;
+    border-radius: 8px;
+}
+
+.card-info img{
+    margin-top: 69px;
+    background-color: #F95555;
+    padding: 16px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.card-info h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.card-info p{
+    color: #627382;
+    line-height: 20px;
+    padding: 0 24px;
+    margin-bottom: 21px;
+}
+
