@@ -258,3 +258,55 @@ nav .menu ul a{
     line-height: 24px;
     font-weight: 400;
 }
+
+footer{
+    margin-top: 120px;
+    background-color: #001931;
+}
+
+footer .footer-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.footer-container .footer-content .logo-social{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.footer-content .logo-social .social-links h2{
+    color: #FFFFFF;
+    font-size: 20ox;
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 28px;
+}
+
+.footer-content .logo-social .social-links ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.logo-social .social-links ul a{
+    color: #ffffff;          /* any color you want */
+    text-decoration: none;
+    
+}
+
+.footer-container .footer-content hr{
+    border-color: #469165;
+    margin-bottom: 30px;
+}
+
+.footer-container .footer-content p{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 30px;
+}
