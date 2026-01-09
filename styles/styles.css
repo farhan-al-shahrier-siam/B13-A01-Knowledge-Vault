@@ -52,6 +52,15 @@ nav .menu ul a{
     color: #FFFFFF;
     cursor: pointer;
     white-space: nowrap;
+    transition: 0.3s ease;
+
+}
+
+.btn:hover{
+    background-color:blueviolet;
+    box-shadow: 0 0 20px blueviolet;
+    font-weight: bolder;
+    
 }
 
 #banner{
@@ -109,6 +118,11 @@ nav .menu ul a{
     border-radius: 5px;
     margin-left: 16px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.single-btn:hover{
+    box-shadow: 0 0 20px #FFFFFF;
 }
 
 #notes .notes-container{
